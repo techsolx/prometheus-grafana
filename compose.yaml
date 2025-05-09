@@ -26,6 +26,7 @@ services:
     restart: unless-stopped
     ports:
       - 3000:3000
+    user: "1000"
     volumes:
       - ./grafana_data/grafana:/var/lib/grafana
         #    environment:
