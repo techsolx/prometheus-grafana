@@ -12,14 +12,14 @@ alerting:
     static_configs:
     - targets: []
 scrape_configs:
-#- job_name: 49house
-#  static_configs:
-#  - targets:
-#    - 49house.net0:9100
-#- job_name: le8450
-#  static_configs:
-#  - targets:
-#    - le8450.net0:9100
+- job_name: 49house
+  static_configs:
+  - targets:
+    - 49house.net0:9100
+- job_name: le8450
+  static_configs:
+  - targets:
+    - le8450.net0:9100
 - job_name: node_exporter-rp3
   static_configs:
   - targets:
